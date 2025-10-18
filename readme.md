@@ -18,5 +18,6 @@ What are we working on?
 * subjective experiences of time
 * also thoughts of category of games that are like automata with user interaction
 * do different ratios provoke different thoughts on average
+* or how might one want to remap keypresses to another domain
 
 Thinks of past experience with super hexagone. What does it feel like to know this relationship to 1000 to 100 000 etc millions...
