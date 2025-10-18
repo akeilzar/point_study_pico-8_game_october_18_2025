@@ -73,7 +73,7 @@ function _update()
 	cls()
 	score += 0.0271
 	--print(debug)
-	print("score: ".. flr(score))
+	print("s: ".. flr(score),20,50)
 	if (c1 < 7) then
 		run()
 	end
