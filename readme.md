@@ -14,3 +14,5 @@ What are we working on?
 * Calming is a given
 * Rolling dice and using scores as inputs to other functions? Koodie catcher? Rubix cube?
 * etc
+
+Thinks of past experience with super hexagone. What does it feel like to know this relationship to 1000 to 100 000 etc millions...
