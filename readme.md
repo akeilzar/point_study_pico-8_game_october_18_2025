@@ -16,5 +16,6 @@ What are we working on?
 * etc
 * we also have relative counters and clocks where units are not quantized to seconds but other ratios - even brings treadmill to mind
 * subjective experiences of time
+* also thoughts of category of games that are like automata with user interaction
 
 Thinks of past experience with super hexagone. What does it feel like to know this relationship to 1000 to 100 000 etc millions...
