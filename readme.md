@@ -14,7 +14,7 @@ What are we working on?
 * Calming is a given
 * Rolling dice and using scores as inputs to other functions? Koodie catcher? Rubix cube?
 * etc
-* we also have relaive counters and clocks where units are not quantized to seconds but other ratios - even brings treadmill to mind
+* we also have relative counters and clocks where units are not quantized to seconds but other ratios - even brings treadmill to mind
 * subjective experiences of time
 
 Thinks of past experience with super hexagone. What does it feel like to know this relationship to 1000 to 100 000 etc millions...
