@@ -19,5 +19,6 @@ What are we working on?
 * also thoughts of category of games that are like automata with user interaction
 * do different ratios provoke different thoughts on average
 * or how might one want to remap keypresses to another domain
+* an offshoot brings to mind hack and slash and ikaruga etc if each extra node is sending out pellets
 
 Thinks of past experience with super hexagone. What does it feel like to know this relationship to 1000 to 100 000 etc millions...
