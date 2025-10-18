@@ -52,6 +52,7 @@ function _draw()
 	circ(circle_4.x,circle_4.y,5,7)
 	--
 	circ(63,63,63,7)
+	circ(63,63,60,7)
 	--
 	
 	-- end of game cases 
@@ -110,3 +111,5 @@ function _update()
 		run()
 	end
 end
+
+
