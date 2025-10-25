@@ -14,6 +14,7 @@ function _init()
 	test_bounds_c6 = 0
 	px = 63
 	py = 63
+	z = 9
 end
 
 function _draw()
@@ -145,10 +146,10 @@ function _update()
 	end
 	
 	if btn(1) then
-		r += 3
+		z += 3
 	end
 	if btn(0) then
-		r -= 3
+		z -= 3
 	end
 	if btn(3) then
 		u += 3
