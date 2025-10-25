@@ -39,7 +39,7 @@ function _draw()
 	}
 	-- line(circle_1.x,circle_1.y,circle_2.x,circle_2.y,7) -- shhhhh
 	-- line(circle_1.x,circle_1.y,circle_3.x,circle_3.y,7) -- shhhhh
-	--line(circle_1.x,circle_1.y,circle_4.x,circle_4.y,7)
+	-- line(circle_1.x,circle_1.y,circle_4.x,circle_4.y,7)
 	-- there are lines showing distance between the player at "_1" and each other object
 	-- 
 	-- centre lines
@@ -48,7 +48,7 @@ function _draw()
 	-- line(circle_1.x,circle_1.y,63,63,7)
 	-- line(circle_2.x,circle_2.y,63,63,7)
 	-- line(circle_3.x,circle_3.y,63,63,7)
-	--line(circle_4.x,circle_4.y,63,63,7)
+	-- line(circle_4.x,circle_4.y,63,63,7)
 	-- we also thought that (63,63) centre of screen would be another nice place to have some lines to see appearance of ratios
 	--
 	-- player
@@ -58,7 +58,7 @@ function _draw()
 	--
 	-- x1 is (1) circle (2) midpoint etc
 	--
-	circ(circle_2.x,circle_2.y,5,7)
+	circfill(circle_2.x,circle_2.y,5,7)
 	-- circ(circle_3.x,circle_3.y,5,7) -- muted
 	-- so here x,y,size is 5, and 7 is white
 	--circ(circle_4.x,circle_4.y,5,7)
@@ -80,7 +80,7 @@ function _draw()
 	smaller = 10
 	c5 = ln_len(63,circle_3.x,63,circle_3.y)/smaller
 	-- add me to c3 size
-	circ(circle_3.x,circle_3.y,5+c5,7)
+	circfill(circle_3.x,circle_3.y,5+c5,7)
 	--c4 = ln_len(circle_1.x,circle_4.x,circle_1.y,circle_4.y)
 end
 
