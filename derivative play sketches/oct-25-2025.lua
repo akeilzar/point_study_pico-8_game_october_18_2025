@@ -12,6 +12,8 @@ function _init()
 	c4 = 100
 	smaller = 10 -- instantiation here
 	test_bounds_c6 = 0
+	px = 63
+	py = 63
 end
 
 function _draw()
@@ -86,6 +88,9 @@ function _draw()
 	circfill(circle_3.x,circle_3.y,5+c5,7)
 	--c4 = ln_len(circle_1.x,circle_4.x,circle_1.y,circle_4.y)
 
+	px = circle_1.x
+	py = circle_1.y
+
 
 	-- are you greater than 127 or less than 0
 	test_bounds_c6 = ln_len(circle_1.x,0,circle_1.y,0)
@@ -125,7 +130,16 @@ function _update()
 		run()
 	end
 
-	if test_bounds_c6 < 10 then
+	if px < 0 then
+		run()
+	end
+	if px > 127 then
+		run()
+	end
+	if py < 0 then
+		run()
+	end
+	if py > 127 then
 		run()
 	end
 	
