@@ -22,6 +22,7 @@ function _draw()
 	-- first thing noticed is looking for time() as origin of movement
 	-- scaling time by different ratios when dividing
 	-- cos as offset sin
+	-- "+63 is moving half way across screen 0,0 top left
 	circle_3 = {
 	x = (r/2)+63+40*sin(0.3*time()/3),
 	y = (u/2)+63-40*cos(0.3*time()/3.65)
