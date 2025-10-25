@@ -47,6 +47,7 @@ function _draw()
 	line(circle_2.x,circle_2.y,63,63,7)
 	line(circle_3.x,circle_3.y,63,63,7)
 	line(circle_4.x,circle_4.y,63,63,7)
+	-- we also thought that (63,63) centre of screen would be another nice place to have some lines to see appearance of ratios
 	--
 	-- player
 	--
