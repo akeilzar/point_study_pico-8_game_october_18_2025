@@ -39,8 +39,8 @@ function _draw()
 	y = (u/2)+63-60*cos(0.3*time()/2)
 	}
 	circle_1 = {
-	x = r + 63-31*sin(0.3*time()/z*3),
-	y = u + 63+31*cos(0.3*time()/z*3.65)
+	x = r + 63-31*sin(z*time()/3),
+	y = u + 63+31*cos(z*time()/3.65)
 	}
 	line(circle_1.x,circle_1.y,circle_2.x,circle_2.y,7)
 	line(circle_2.x,circle_2.y,circle_3.x,circle_3.y,7)
