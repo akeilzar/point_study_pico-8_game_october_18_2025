@@ -14,7 +14,7 @@ function _init()
 	test_bounds_c6 = 0
 	px = 63
 	py = 63
-	z = 9
+	z = 1
 end
 
 function _draw()
@@ -146,16 +146,16 @@ function _update()
 	end
 	
 	if btn(1) then
-		z += 9
+		z = 9
 	end
 	if btn(0) then
-		z -= 9
+		z = 9
 	end
 	if btn(3) then
-		z += 9
+		z = 9
 	end
 	if btn(2) then
-		z -= 9
+		z = 9
 	end
 	-- if length of line 
 	-- beween origin and player 
@@ -167,6 +167,6 @@ function _update()
 	-- player radius you too
 	-- ends
 	if btn(5) then
-		run()
+		z = 9
 	end
 end
