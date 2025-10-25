@@ -150,21 +150,6 @@ function _update()
 	else
 		z = 1
 	end
-	if btn(0) then
-		z = 9
-	else
-		z = 1
-	end
-	if btn(3) then
-		z = 9
-	else
-		z = 1
-	end
-	if btn(2) then
-		z = 9
-	else
-		z = 1
-	end
 	-- if length of line 
 	-- beween origin and player 
 	-- > large circle radius 
@@ -174,7 +159,4 @@ function _update()
 	-- linked circles is less 
 	-- player radius you too
 	-- ends
-	if btn(5) then
-		z = 9
-	end
 end
