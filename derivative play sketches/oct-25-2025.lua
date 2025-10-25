@@ -23,6 +23,7 @@ function _draw()
 	-- scaling time by different ratios when dividing
 	-- cos as offset sin
 	-- "+63 is moving half way across screen 0,0 top left
+	-- sine and cos were moving at super small scale so the whole function is increased by multiple "20"
 	circle_3 = {
 	x = (r/2)+63+40*sin(0.3*time()/3),
 	y = (u/2)+63-40*cos(0.3*time()/3.65)
