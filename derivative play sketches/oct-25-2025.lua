@@ -41,7 +41,8 @@ function _draw()
 	x = r + 63-8*sin(0.3*time()/3),
 	y = u + 63+8*cos(0.3*time()/3.65)
 	}
-	-- line(circle_1.x,circle_1.y,circle_2.x,circle_2.y,7) -- shhhhh
+	line(circle_1.x,circle_1.y,circle_2.x,circle_2.y,7)
+	line(circle_2.x,circle_2.y,circle_3.x,circle_3.y,7)
 	-- line(circle_1.x,circle_1.y,circle_3.x,circle_3.y,7) -- shhhhh
 	-- line(circle_1.x,circle_1.y,circle_4.x,circle_4.y,7)
 	-- line(circle_1.x,circle_1.y,0,0,7)
