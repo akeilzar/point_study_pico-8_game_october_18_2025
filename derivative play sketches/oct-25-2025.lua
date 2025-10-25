@@ -74,6 +74,10 @@ function _draw()
 	-- out of curiosity looking to also mute circle 4 references
 	c2 = ln_len(circle_1.x,circle_2.x,circle_1.y,circle_2.y)
 	c3 = ln_len(circle_1.x,circle_3.x,circle_1.y,circle_3.y)
+	-- for c3 wondering what is the distance to the centre? "c5"
+	c5 = ln_len(63,circle_3.x,63,circle_3.y)
+	-- add me to c3 size
+	circ(circle_3.x,circle_3.y,5+c5,7)
 	--c4 = ln_len(circle_1.x,circle_4.x,circle_1.y,circle_4.y)
 end
 
