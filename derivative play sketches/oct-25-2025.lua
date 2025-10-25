@@ -68,7 +68,7 @@ function _draw()
 	-- end of game cases 
 	c1 = 64-ln_len(circle_1.x,63,circle_1.y,63)
 	c2 = ln_len(circle_1.x,circle_2.x,circle_1.y,circle_2.y)
- c3 = ln_len(circle_1.x,circle_3.x,circle_1.y,circle_3.y)
+	c3 = ln_len(circle_1.x,circle_3.x,circle_1.y,circle_3.y)
 	c4 = ln_len(circle_1.x,circle_4.x,circle_1.y,circle_4.y)
 end
 
@@ -78,6 +78,7 @@ function ln_len(x1,x2,y1,y2)
 	sqr3 = sqrt(sq1+sq2)
 	return sqr3
 end
+-- a2 b2 c2 pyth and distance here to collision usually
 
 function _update()
 	cls()
