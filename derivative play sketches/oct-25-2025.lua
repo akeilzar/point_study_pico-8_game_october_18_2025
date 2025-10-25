@@ -66,7 +66,10 @@ function _draw()
 	--
 	
 	-- end of game cases 
-	c1 = 64-ln_len(circle_1.x,63,circle_1.y,63)
+	c1 = 64-ln_len(circle_1.x,63,circle_1.y,63) -- this is the "partial-condition" "out-of-case-condition" if u like
+	-- c1 is raising the question, what is the length of the path to the centre? now, the distance from the centre to the outer enclosing circle is near 64
+	-- below we will say if less than 7 restart the game
+	-- now i'm going to mute this case below to move the example in a new direction
 	c2 = ln_len(circle_1.x,circle_2.x,circle_1.y,circle_2.y)
 	c3 = ln_len(circle_1.x,circle_3.x,circle_1.y,circle_3.y)
 	c4 = ln_len(circle_1.x,circle_4.x,circle_1.y,circle_4.y)
@@ -90,9 +93,9 @@ function _update()
 	-- so here is a simple table of cases and conditions described previously
 	-- wanting to know above "what is the distance between 2 points" and then here keep track if less half of the initial definition of 
 	-- a non-player's size
-	if (c1 < 7) then
-		run()
-	end
+	--if (c1 < 7) then
+		--run()
+	--end
 	if (c2 < 7) then
 		run()
 	end
