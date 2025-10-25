@@ -88,6 +88,8 @@ function _update()
 
 
 	-- so here is a simple table of cases and conditions described previously
+	-- wanting to know above "what is the distance between 2 points" and then here keep track if less half of the initial definition of 
+	-- a non-player's size
 	if (c1 < 7) then
 		run()
 	end
