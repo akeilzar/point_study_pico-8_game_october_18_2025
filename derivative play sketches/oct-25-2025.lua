@@ -14,6 +14,7 @@ function _init()
 end
 
 function _draw()
+	rect(0,0,127,127,5,7)
 	circle_2 = {
 	x = (r/2)+63+20*sin(0.3*time()/2.27),
 	y = (u/2)+63+20*cos(0.3*time()/2)
