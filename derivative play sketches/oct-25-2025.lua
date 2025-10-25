@@ -11,6 +11,7 @@ function _init()
 	c3 = 100
 	c4 = 100
 	smaller = 10 -- instantiation here
+	test_bounds_c6 = 0
 end
 
 function _draw()
@@ -83,6 +84,10 @@ function _draw()
 	-- add me to c3 size
 	circfill(circle_3.x,circle_3.y,5+c5,7)
 	--c4 = ln_len(circle_1.x,circle_4.x,circle_1.y,circle_4.y)
+
+
+	-- are you greater than 127 or less than 0
+	test_bounds_c6 = (ln_len(circle_1.x,0,circle_1.y,0) > 127) or (ln_len(circle_1.x,0,circle_1.y,0) < 0)
 end
 
 function ln_len(x1,x2,y1,y2)
