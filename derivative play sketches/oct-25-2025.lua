@@ -58,6 +58,7 @@ function _draw()
 	--
 	circ(circle_2.x,circle_2.y,5,7)
 	circ(circle_3.x,circle_3.y,5,7)
+	-- so here x,y,size is 5, and 7 is white
 	--circ(circle_4.x,circle_4.y,5,7)
 	--
 	-- muting these circle to see how my attention style changes
