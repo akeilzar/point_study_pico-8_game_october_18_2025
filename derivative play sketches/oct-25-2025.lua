@@ -106,7 +106,7 @@ function _update()
 	if (c2 < 7) then
 		run()
 	end
-	if (c3 < 7) then
+	if (c3 < 7 + smaller/2) then
 		run()
 	end
 	if (c4 < 7) then
