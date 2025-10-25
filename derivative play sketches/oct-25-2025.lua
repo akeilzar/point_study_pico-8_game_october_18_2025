@@ -146,7 +146,7 @@ function _update()
 	end
 	
 	if btn(2) then
-		z = 9
+		z = 0
 	else
 		z = 3
 	end
