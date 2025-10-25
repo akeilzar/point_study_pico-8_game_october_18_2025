@@ -14,7 +14,7 @@ function _init()
 	test_bounds_c6 = 0
 	px = 63
 	py = 63
-	z = 3
+	z = 1 
 end
 
 function _draw()
@@ -39,8 +39,8 @@ function _draw()
 	y = (u/2)+63-60*cos(0.3*time()/2)
 	}
 	circle_1 = {
-	x = r + 63-31*sin(time()/z),
-	y = u + 63+31*cos(time()/z)
+	x = 63-31*sin((time()/7)+3.14/z),
+	y = 63+31*cos((time()/7))
 	}
 	line(circle_1.x,circle_1.y,circle_2.x,circle_2.y,7)
 	line(circle_2.x,circle_2.y,circle_3.x,circle_3.y,7)
@@ -145,14 +145,8 @@ function _update()
 		run()
 	end
 
-	circle_1 = {
-	x = r + 63-31*sin(time()/z),
-	y = u + 63+31*cos(time()/z)
-	}
 	if btn(2) then
-		z += 1
-	else
-		z = 3
+		z += 0.1
 	end
 	-- if length of line 
 	-- beween origin and player 
