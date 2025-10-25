@@ -85,6 +85,9 @@ function _update()
 	score += 0.0271
 	--print(debug)
 	--print("s: ".. flr(score),20,50)
+
+
+	-- so here is a simple table of cases and conditions described previously
 	if (c1 < 7) then
 		run()
 	end
@@ -97,6 +100,9 @@ function _update()
 	if (c4 < 7) then
 		run()
 	end
+
+
+	
 	if btn(1) then
 		r += 3
 	end
