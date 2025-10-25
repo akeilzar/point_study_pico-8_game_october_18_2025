@@ -146,10 +146,10 @@ function _update()
 	end
 	
 	if btn(1) then
-		z += 3
+		z += 39
 	end
 	if btn(0) then
-		z -= 3
+		z -= 39
 	end
 	if btn(3) then
 		u += 3
