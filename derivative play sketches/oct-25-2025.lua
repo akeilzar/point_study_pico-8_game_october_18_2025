@@ -116,7 +116,7 @@ function _update()
 	-- if length of line between 
 	-- player and any of the three
 	-- linked circles is less 
-	-- than player radius you to
+	-- player radius you too
 	-- ends
 	if btn(5) then
 		run()
