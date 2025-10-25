@@ -10,6 +10,7 @@ function _init()
 	c2 = 100
 	c3 = 100
 	c4 = 100
+	smaller = 10 -- instantiation here
 end
 
 function _draw()
