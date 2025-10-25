@@ -17,6 +17,11 @@ function _draw()
 	x = (r/2)+63+20*sin(0.3*time()/2.27),
 	y = (u/2)+63+20*cos(0.3*time()/2)
 	}
+	-- retracing my steps 
+	-- forgetting how to read maths and teaching myself again 
+	-- first thing noticed is looking for time() as origin of movement
+	-- scaling time by different ratios when dividing
+	-- cos as offset sin
 	circle_3 = {
 	x = (r/2)+63+40*sin(0.3*time()/3),
 	y = (u/2)+63-40*cos(0.3*time()/3.65)
@@ -73,7 +78,7 @@ function _update()
 	cls()
 	score += 0.0271
 	--print(debug)
-	print("s: ".. flr(score),20,50)
+	--print("s: ".. flr(score),20,50)
 	if (c1 < 7) then
 		run()
 	end
