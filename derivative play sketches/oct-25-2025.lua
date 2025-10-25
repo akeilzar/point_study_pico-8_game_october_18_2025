@@ -14,7 +14,7 @@ function _init()
 	test_bounds_c6 = 0
 	px = 63
 	py = 63
-	z = 1
+	z = 3
 end
 
 function _draw()
@@ -145,10 +145,10 @@ function _update()
 		run()
 	end
 	
-	if btn(1) then
+	if btn(2) then
 		z = 9
 	else
-		z = 1
+		z = 3
 	end
 	-- if length of line 
 	-- beween origin and player 
