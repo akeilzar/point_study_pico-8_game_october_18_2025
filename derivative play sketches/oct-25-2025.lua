@@ -60,8 +60,9 @@ function _draw()
 	circ(circle_3.x,circle_3.y,5,7)
 	circ(circle_4.x,circle_4.y,5,7)
 	--
-	circ(63,63,63,7)
-	circ(63,63,60,7)
+	-- muting these circle to see how my attention style changes
+	-- circ(63,63,63,7)
+	-- circ(63,63,60,7)
 	--
 	
 	-- end of game cases 
