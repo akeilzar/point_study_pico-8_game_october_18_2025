@@ -87,7 +87,7 @@ function _draw()
 
 
 	-- are you greater than 127 or less than 0
-	test_bounds_c6 = (ln_len(circle_1.x,0,circle_1.y,0) > 127) or (ln_len(circle_1.x,0,circle_1.y,0) < 0)
+	test_bounds_c6 = ln_len(circle_1.x,0,circle_1.y,0)
 end
 
 function ln_len(x1,x2,y1,y2)
@@ -121,7 +121,11 @@ function _update()
 		run()
 	end
 
-	if test_bounds_c6 != 0 then
+	if test_bounds_c6 > 127 then
+		run()
+	end
+
+	if test_bounds_c6 < 0 then
 		run()
 	end
 	
