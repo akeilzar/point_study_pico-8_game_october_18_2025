@@ -152,10 +152,10 @@ function _update()
 		z -= 39
 	end
 	if btn(3) then
-		u += 3
+		z += 39
 	end
 	if btn(2) then
-		u -= 3
+		z -= 39
 	end
 	-- if length of line 
 	-- beween origin and player 
