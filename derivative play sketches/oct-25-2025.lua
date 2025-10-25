@@ -147,15 +147,23 @@ function _update()
 	
 	if btn(1) then
 		z = 9
+	else
+		z = 1
 	end
 	if btn(0) then
 		z = 9
+	else
+		z = 1
 	end
 	if btn(3) then
 		z = 9
+	else
+		z = 1
 	end
 	if btn(2) then
 		z = 9
+	else
+		z = 1
 	end
 	-- if length of line 
 	-- beween origin and player 
