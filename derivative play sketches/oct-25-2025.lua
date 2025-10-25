@@ -125,7 +125,7 @@ function _update()
 		run()
 	end
 
-	if test_bounds_c6 > 180 then
+	if test_bounds_c6 < 10 then
 		run()
 	end
 	
