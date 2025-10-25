@@ -121,7 +121,9 @@ function _update()
 		run()
 	end
 
-
+	if test_bounds_c6 != 0 then
+		run()
+	end
 	
 	if btn(1) then
 		r += 3
