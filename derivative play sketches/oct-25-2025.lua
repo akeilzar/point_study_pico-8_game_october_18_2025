@@ -44,7 +44,7 @@ function _draw()
 	-- line(circle_1.x,circle_1.y,circle_2.x,circle_2.y,7) -- shhhhh
 	-- line(circle_1.x,circle_1.y,circle_3.x,circle_3.y,7) -- shhhhh
 	-- line(circle_1.x,circle_1.y,circle_4.x,circle_4.y,7)
-	line(circle_1.x,circle_1.y,0,0,7)
+	-- line(circle_1.x,circle_1.y,0,0,7)
 	-- there are lines showing distance between the player at "_1" and each other object
 	-- 
 	-- centre lines
