@@ -103,7 +103,7 @@ function _update()
 	score += 0.0271
 	--print(debug)
 
-	--print(test_bounds_c6)
+	print(test_bounds_c6)
 	
 	--print("s: ".. flr(score),20,50)
 
