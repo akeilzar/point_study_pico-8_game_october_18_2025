@@ -38,7 +38,7 @@ function _draw()
 	}
 	line(circle_1.x,circle_1.y,circle_2.x,circle_2.y,7)
 	line(circle_1.x,circle_1.y,circle_3.x,circle_3.y,7)
-	line(circle_1.x,circle_1.y,circle_4.x,circle_4.y,7)
+	--line(circle_1.x,circle_1.y,circle_4.x,circle_4.y,7)
 	-- there are lines showing distance between the player at "_1" and each other object
 	-- 
 	-- centre lines
@@ -46,7 +46,7 @@ function _draw()
 	line(circle_1.x,circle_1.y,63,63,7)
 	line(circle_2.x,circle_2.y,63,63,7)
 	line(circle_3.x,circle_3.y,63,63,7)
-	line(circle_4.x,circle_4.y,63,63,7)
+	--line(circle_4.x,circle_4.y,63,63,7)
 	-- we also thought that (63,63) centre of screen would be another nice place to have some lines to see appearance of ratios
 	--
 	-- player
@@ -58,7 +58,7 @@ function _draw()
 	--
 	circ(circle_2.x,circle_2.y,5,7)
 	circ(circle_3.x,circle_3.y,5,7)
-	circ(circle_4.x,circle_4.y,5,7)
+	--circ(circle_4.x,circle_4.y,5,7)
 	--
 	-- muting these circle to see how my attention style changes
 	-- circ(63,63,63,7)
@@ -70,9 +70,10 @@ function _draw()
 	-- c1 is raising the question, what is the length of the path to the centre? now, the distance from the centre to the outer enclosing circle is near 64
 	-- below we will say if less than 7 restart the game
 	-- now i'm going to mute this case below to move the example in a new direction
+	-- out of curiosity looking to also mute circle 4 references
 	c2 = ln_len(circle_1.x,circle_2.x,circle_1.y,circle_2.y)
 	c3 = ln_len(circle_1.x,circle_3.x,circle_1.y,circle_3.y)
-	c4 = ln_len(circle_1.x,circle_4.x,circle_1.y,circle_4.y)
+	--c4 = ln_len(circle_1.x,circle_4.x,circle_1.y,circle_4.y)
 end
 
 function ln_len(x1,x2,y1,y2)
