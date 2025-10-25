@@ -125,11 +125,7 @@ function _update()
 		run()
 	end
 
-	if test_bounds_c6 > 127 then
-		run()
-	end
-
-	if test_bounds_c6 < 0 then
+	if test_bounds_c6 > 255 then
 		run()
 	end
 	
