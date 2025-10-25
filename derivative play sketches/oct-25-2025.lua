@@ -144,9 +144,13 @@ function _update()
 	if py > 127 then
 		run()
 	end
-	
+
+	circle_1 = {
+	x = r + 63-31*sin(time()/z),
+	y = u + 63+31*cos(time()/z)
+	}
 	if btn(2) then
-		z = 4
+		z += 1
 	else
 		z = 3
 	end
