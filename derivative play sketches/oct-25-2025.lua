@@ -39,8 +39,8 @@ function _draw()
 	y = (u/2)+63-60*cos(0.3*time()/2)
 	}
 	circle_1 = {
-	x = 63-31*sin((time()/7)+3.14/z),
-	y = 63+31*cos((time()/7))
+	x = 63-(sin(time())*10),
+	y = 63-(cos(time())*10)
 	}
 	line(circle_1.x,circle_1.y,circle_2.x,circle_2.y,7)
 	line(circle_2.x,circle_2.y,circle_3.x,circle_3.y,7)
@@ -145,9 +145,6 @@ function _update()
 		run()
 	end
 
-	if btn(2) then
-		z += 0.1
-	end
 	-- if length of line 
 	-- beween origin and player 
 	-- > large circle radius 
