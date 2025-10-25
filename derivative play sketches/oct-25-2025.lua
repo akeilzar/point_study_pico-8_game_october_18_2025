@@ -146,16 +146,16 @@ function _update()
 	end
 	
 	if btn(1) then
-		z += 39
+		z += 9
 	end
 	if btn(0) then
-		z -= 39
+		z -= 9
 	end
 	if btn(3) then
-		z += 39
+		z += 9
 	end
 	if btn(2) then
-		z -= 39
+		z -= 9
 	end
 	-- if length of line 
 	-- beween origin and player 
