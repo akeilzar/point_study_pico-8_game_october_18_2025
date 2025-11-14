@@ -60,7 +60,7 @@ function _draw()
 	-- end of game cases 
 	c1 = 64-ln_len(circle_1.x,63,circle_1.y,63)
 	c2 = ln_len(circle_1.x,circle_2.x,circle_1.y,circle_2.y)
- c3 = ln_len(circle_1.x,circle_3.x,circle_1.y,circle_3.y)
+    c3 = ln_len(circle_1.x,circle_3.x,circle_1.y,circle_3.y)
 	c4 = ln_len(circle_1.x,circle_4.x,circle_1.y,circle_4.y)
 end
 
@@ -107,7 +107,7 @@ function _update()
 	-- if length of line between 
 	-- player and any of the three
 	-- linked circles is less 
-	-- than player radius you to
+	-- than player radius you too
 	-- ends
 	if btn(5) then
 		run()
