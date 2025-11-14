@@ -4,6 +4,7 @@ function _init()
 	cls()
 	u = 1
 	r = 1
+	-- up / right
 	debug = ""
 	score = 0
 	c1 = 100
