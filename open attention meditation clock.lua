@@ -11,6 +11,7 @@ function _init()
 	c2 = 100
 	c3 = 100
 	c4 = 100
+	-- c : case end distances ... if less than v you may restart
 end
 
 function _draw()
